@@ -1,47 +1,47 @@
 # Where things are
 
-source:		.
-destination:./_site
-plugins:	./_plugins
-layouts:	./_layouts
-data_source:./_data
-collections:null
+source:        .
+destination:   ./_site
+plugins:       ./_plugins
+layouts:       ./_layouts
+data_source:   ./_data
+collections:   null
 
 # Handling Reading
 
-safe:		false
-include:	[".htcaccess"]
-exclude:	[]
-keep_files:	[".git", ".svn"]
-encoding:	"utf-8"
-markdown_ext:"markdown,mkdown,mkdn,mkd,md"
-textile_ext:"textile"
+safe:          false
+include:       [".htcaccess"]
+exclude:       []
+keep_files:    [".git", ".svn"]
+encoding:      "utf-8"
+markdown_ext:  "markdown,mkdown,mkdn,mkd,md"
+textile_ext:   "textile"
 
 # Filtering Content
 
-show_drafts:null
-limit_posts:0
-future:		true
-unpublished:false
+show_drafts:   null
+limit_posts:   0
+future:        true
+unpublished:   false
 
 # Plugins 
 
-whitelist:	[]
-gems:		[]
+whitelist:     []
+gems:          []
 
 # Conversion
 
-markdown:	kramdown
-highlighter:pygments
-lsi:	false
+markdown:      kramdown
+highlighter:   pygments
+lsi:           false
 excerpt_separator: "\n\n"
 
 # Serving 
 
-detach:		false
-port:		4000
-host:		0.0.0.0
-baseurl:	"" # does not include hostname
+detach:        false
+port:          4000
+host:          0.0.0.0
+baseurl:       "" # does not include hostname
 
 # Backwards-compatibility
 
@@ -49,15 +49,15 @@ relative_permalinks: false
 
 # Outputting
 
-permalink:	data
+permalink:	   data
 paginate_path: /page:num
-timezone:		null
+timezone:      null
 
-quiet: 		false
-defaults: 	[]
+quiet:         false
+defaults:      []
 
 # Markdown Processors
-maruku:
+maruku: 
   use_tex:    false
   use_divs:   false
   png_engine: blahtex
@@ -65,13 +65,13 @@ maruku:
   png_url:    /images/latex
   fenced_code_blocks: true
 
-rdiscount:
+rdiscount: 
   extensions: []
 
-redcarpet:
+redcarpet: 
   extensions: []
 
-kramdown:
+kramdown: 
   auto_ids:      true
   footnote_nr:   1
   entity_output: as_char
@@ -79,7 +79,7 @@ kramdown:
   smart_quotes:  lsquo,rsquo,ldquo,rdquo
   use_coderay:   false
 
-  coderay:
+  coderay: 
     coderay_wrap:              div
     coderay_line_numbers:      inline
     coderay_line_number_start: 1
@@ -87,5 +87,5 @@ kramdown:
     coderay_bold_every:        10
     coderay_css:               style
 
-redcloth:
+redcloth: 
   hard_breaks: true
