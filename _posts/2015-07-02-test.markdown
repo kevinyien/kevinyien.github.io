@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Test
 layout: post
 ---
@@ -7,4 +7,4 @@ This is a test post
 
 > Do quotes work? 
 
-This seems **far** too easy. 
+This seems **far** too easy.
