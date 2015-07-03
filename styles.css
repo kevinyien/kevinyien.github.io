@@ -2,6 +2,8 @@ body {
   border: 8px solid #5c7a8a;
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #ECECEC;
+  text-decoration: none;
+  text-align: center;
 }
 
 p {
