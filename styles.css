@@ -13,6 +13,7 @@ p {
 
 #headshot img {
   width:120px;
+  margin: 150px;
 }
 
 ::selection {
