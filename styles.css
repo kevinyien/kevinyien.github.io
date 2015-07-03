@@ -1,40 +1,15 @@
-body, .title h1 {
+body {
+  border: 8px solid #5c7a8a;
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: #ECECEC;
 }
 
 p {
-    line-height:1.8em;
+  line-height: 1.8em;
 }
 
-.caption p {
-  margin-bottom: 32px;
-}
-
-#content {
- overflow-x: none !important;
-}
-
-div#color-banner {
-  width: auto;
-  height: 8px;
-  background-color: #5c7a8a;
-}
-
-div#footer-links {
-  margin-top: -10px;
-}
-
-div.blog-title {
-  margin-top: 10px;
-}
-
-#header img {
+#headshot img {
   width:120px;
-}
-
-p.blog-description, #header h1 a {
-  color: #2a3437;
-  text-shadow: 0 0 -3px #2a3437;
 }
 
 ::selection {
@@ -44,8 +19,4 @@ p.blog-description, #header h1 a {
 
 a {
   border-bottom: 2px solid #b77657;
-}
-
-p.promo {
-  margin: 100px 0 -50px 0;
 }
