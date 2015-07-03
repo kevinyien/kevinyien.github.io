@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 180px;
   border: 8px solid #5c7a8a;
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #ECECEC;
@@ -19,7 +21,7 @@ p {
 
 #headshot {
   width:120px;
-  margin: 150px;
+  margin-bottom: 116px;
 }
 
 ::selection {
@@ -29,8 +31,7 @@ p {
 
 a {
   text-decoration: none;
-  color:#383838;
-  border-bottom: 2px solid #b77657;
+  color:#5c7a8a;
 }
 
 a:hover {
