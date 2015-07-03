@@ -50,6 +50,12 @@ a:hover {
   width:120px;
   margin-top: 150px;
   margin-bottom: 400px;
+  transition: opacity 0.8s ease;
+}
+
+#headshot:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
 #top {

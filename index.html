@@ -12,6 +12,24 @@
         <link rel="stylesheet" href="styles.css">
         <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript">
+            $(function() {
+              $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+                  var target = $(this.hash);
+                  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                  if (target.length) {
+                    $('html,body').animate({
+                      scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                  }
+                }
+              });
+            });
+        </script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -72,21 +90,5 @@
             ga('create','UA-40424051-1','auto');ga('send','pageview');
         </script>
 
-        // <script type="text/javascript">
-        //     $('a[href^="#"]').on('click', function(event) {
-
-        //         var target = $( $(this).attr('href') );
-
-        //         if( target.length ) {
-        //             event.preventDefault();
-        //             $('html, body').animate({
-        //                 scrollTop: target.offset().top
-        //             }, 5000);
-        //         }
-
-        //     });
-        // </script>
     </body>
 </html>
-
-
