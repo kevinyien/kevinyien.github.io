@@ -53,7 +53,7 @@ a:hover {
   transition: opacity 0.8s ease;
 }
 
-#headshot:hover {
+#headshot:hover, #headshot:active {
   opacity: 0.4;
   filter: alpha(opacity=40); /* For IE8 and earlier */
 }
