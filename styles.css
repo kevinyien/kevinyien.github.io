@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 180px;
+  padding: 180px 32px;
   border: 8px solid #5c7a8a;
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #ECECEC;
@@ -11,17 +11,25 @@ body {
 h1 {
   font-family: 'Covered by Your Grace';
   margin: 64px;
+  text-align: center;
+  min-width: 140px;
+  display: block;
 }
 
 p {
-  line-height: 1.8em;
+  line-height: 1.5em;
   font-size: 18px;
   color: #383838;
+  min-width: 140px;
 }
 
-#headshot {
-  width:120px;
-  margin-bottom: 116px;
+.callout {
+  font-style: italic;
+  color: #b8b8b8;
+}
+
+.callout a {
+  color: #b8b8b8;
 }
 
 ::selection {
@@ -36,4 +44,15 @@ a {
 
 a:hover {
   color: #40c2ed;
+}
+
+#headshot {
+  width:120px;
+  height: 50%;
+/*  margin-top: 150px;
+  margin-bottom: 400px;*/
+}
+
+#top {
+  padding-top: 48px;
 }
