@@ -7,7 +7,8 @@ body {
 }
 
 h1 {
-  font-family: 'Calligraffitti';
+  font-family: 'Covered by Your Grace';
+  margin: 64px;
 }
 
 p {
@@ -28,6 +29,7 @@ p {
 
 a {
   text-decoration: none;
+  color:#383838;
   border-bottom: 2px solid #b77657;
 }
 
