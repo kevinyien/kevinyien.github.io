@@ -61,21 +61,3 @@ a:hover {
 #top {
   padding-top: 48px;
 }
-
-
-.test {
-  width: 200px;
-  height: 200px;
-  background-size: cover;
-  background-image: url('http://img2.wikia.nocookie.net/__cb20140410200723/pokemon/images/archive/1/16/20150102074354!025Pikachu_OS_anime_10.png');
-}
-
-.test:hover {
-  background-size: cover;
-  background-image: url('http://img2.wikia.nocookie.net/__cb20150510232331/ssb/images/a/a4/.028_Pikachu_%26_Zachary_28_88.png');
-}
-
-.test:active {
-  background-size: cover;
-  background-image: url('http://img2.wikia.nocookie.net/__cb20150510232331/ssb/images/a/a4/.028_Pikachu_%26_Zachary_28_88.png');
-}
