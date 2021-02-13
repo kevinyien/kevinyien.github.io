@@ -2,14 +2,15 @@ body {
   margin: 0;
   padding: 180px 32px;
   border: 8px solid #5c7a8a;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: #ECECEC;
   text-decoration: none;
   text-align: center;
 }
 
 h1 {
-  font-family: 'Covered by Your Grace';
+  //font-family: 'Covered by Your Grace';
+  font-family: 'VT323', monospace;
   margin: 64px;
   text-align: center;
   min-width: 140px;
@@ -17,7 +18,7 @@ h1 {
 }
 
 p {
-  line-height: 1.5em;
+  line-height: 1.38em;
   font-size: 18px;
   color: #383838;
   min-width: 140px;
