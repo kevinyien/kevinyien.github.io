@@ -2,14 +2,14 @@ body {
   margin: 0;
   padding: 180px 32px;
   border: 8px solid #5c7a8a;
-  font-family: 'Inter', sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   background-color: #ECECEC;
   text-decoration: none;
   text-align: center;
 }
 
 h1 {
-  font-family: 'VT323', monospace;
+  font-family: 'Inter', sans-serif;
   margin: 64px;
   text-align: center;
   min-width: 140px;
