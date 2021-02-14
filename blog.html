@@ -3,12 +3,41 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Blog of Kevin Yien</title>
+        <title>Posts — Kevin Yien</title>
+        <meta name="description" content="Posts written by Kevin Yien.">
+        <meta name="keywords" content="Kevin Yien, Yien, blog">
+        <meta name="author" content="Kevin Yien">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="blog.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript">
+            $(function() {
+              $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+                  var target = $(this.hash);
+                  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                  if (target.length) {
+                    $('html,body').animate({
+                      scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                  }
+                }
+              });
+            });
+        </script>
     </head>
+
     <body>
-        <div>
-          <ul id="blogList"></ul>
-        </div>
+      <a class="mutedNav" href="index.html">« Home</a>
+      <h1>Posts</h1>
+        <div id="blogList"></div>
         <script src="blog.js"></script>
     </body>
 </html>
