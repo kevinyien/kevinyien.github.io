@@ -40,6 +40,8 @@ p {
 a {
   text-decoration: none;
   color:#5c7a8a;
+  border-bottom: 1px solid #5c7a8a;
+  padding-bottom: 3px;
 }
 
 a:hover {
