@@ -8,6 +8,11 @@ body {
   max-width: 36rem;
 }
 
+img {
+  max-width: 36rem;
+
+}
+
 h1 {
   font-weight: 700;
   font-size: 22px;
@@ -33,6 +38,7 @@ li {
 blockquote {
   border-left: 3px solid #5c7a8a;
   padding:0 2em;
+  margin: 3em 2em;
 }
 .callout {
   font-family: 'Covered By Your Grace', cursive;
@@ -58,7 +64,7 @@ a {
 }
 
 a:hover {
-  color: #40c2ed;
+  color: #fffe9a;
 }
 
 .mutedNav {
@@ -75,9 +81,9 @@ a:hover {
 #blogList {
   display: inline-grid;
   line-height: 2em;
-
 }
 
 #blogList a {
   margin: 0.5em 0;
+  border: none;
 }

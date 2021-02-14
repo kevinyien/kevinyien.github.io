@@ -1,6 +1,11 @@
 const blogList = {
-  "blog1": "./blog/blog1.html",
-  "blog2": "./blog/blog2.html"
+  "3 Ways to Become a Product Manager": "./blog/becoming-a-pm.html",
+  "Constructing an Effective Phone Screen": "./blog/phone-screen.html",
+  "Why I'm Joining Square": "./blog/why-square.html",
+  "Two Types of Discomfort": "./blog/two-types-of-discomfort.html",
+  "How Netflix Improved Their Hook": "./blog/netflix-loop.html",
+  "MVP Levels": "./blog/mvp-levels.html",
+  "Always Daisy Chain": "./blog/daisy-chain.html"
 }
 
 const blogMap = new Map(Object.entries(blogList));
