@@ -2,38 +2,34 @@ body {
   margin: 0;
   padding: 180px 32px;
   font-family: 'IBM Plex Mono', monospace;
+  color: #ECECEC;
   background-color: #181818;
   text-decoration: none;
   text-align: center;
+  min-width: 140px;
 }
 
 h1 {
-  font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
-  font-size: 18px;
-  letter-spacing: 5px;
+  letter-spacing: 8px;
   text-transform: uppercase;
   margin: 64px;
-  text-align: center;
-  min-width: 140px;
   display: block;
 }
 
 p {
-  line-height: 1.68em;
-  font-size: 18px;
-  color: #ECECEC;
-  min-width: 140px;
+  line-height: 2em;
 }
 
 .callout {
   font-family: 'Covered By Your Grace', cursive;
-  color: #b8b8b8;
+  color: #585858;
   font-size: 22px;
+  letter-spacing: 1px;
 }
 
 .callout a {
-  color: #b8b8b8;
+  color: #585858;
 }
 
 ::selection {
