@@ -9,7 +9,10 @@ body {
 }
 
 h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 800
+  font-size: 18px;
+  text-transform: uppercase;
   margin: 64px;
   text-align: center;
   min-width: 140px;
@@ -24,7 +27,7 @@ p {
 }
 
 .callout {
-  font-style: italic;
+  font-family: 'Covered By Your Grace', cursive;
   color: #b8b8b8;
 }
 
