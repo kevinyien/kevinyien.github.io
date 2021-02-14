@@ -1,17 +1,17 @@
 body {
   margin: 0;
   padding: 180px 32px;
-  border: 8px solid #5c7a8a;
   font-family: 'IBM Plex Mono', monospace;
-  background-color: #ECECEC;
+  background-color: #181818;
   text-decoration: none;
   text-align: center;
 }
 
 h1 {
   font-family: 'IBM Plex Mono', monospace;
-  font-weight: 800
+  font-weight: 700;
   font-size: 18px;
+  letter-spacing: 5px;
   text-transform: uppercase;
   margin: 64px;
   text-align: center;
@@ -20,15 +20,16 @@ h1 {
 }
 
 p {
-  line-height: 1.38em;
+  line-height: 1.68em;
   font-size: 18px;
-  color: #383838;
+  color: #ECECEC;
   min-width: 140px;
 }
 
 .callout {
   font-family: 'Covered By Your Grace', cursive;
   color: #b8b8b8;
+  font-size: 22px;
 }
 
 .callout a {
