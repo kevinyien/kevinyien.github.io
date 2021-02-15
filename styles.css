@@ -4,13 +4,17 @@ body {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: lighter;
   color: #FCFCFC;
-  background-color: #181818;
+  background-color: #1a1a1a;
   text-decoration: none;
   max-width: 36rem;
 }
 
 .blogPost p {
-  font-family: 'IBM Plex Sans', monospace;
+  font-family: 'IBM Plex Sans', Avenir, sans-serif;
+}
+
+.blogPost li {
+  font-family: 'IBM Plex Sans', Avenir, sans-serif;
 }
 
 img {
@@ -35,13 +39,13 @@ h2 {
 }
 
 p {
-  line-height: 1.83em;
+  line-height: 1.6em;
   margin-top: 0.5em;
   margin-bottom: 1em;
 }
 
 li {
-  line-height: 1.83em;
+  line-height: 1.6em;
 }
 
 blockquote {
