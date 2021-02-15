@@ -3,7 +3,7 @@ body {
   padding: 2rem;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: lighter;
-  color: #ECECEC;
+  color: #FCFCFC;
   background-color: #181818;
   text-decoration: none;
   max-width: 36rem;
@@ -63,7 +63,7 @@ blockquote {
 
 a {
   text-decoration: none;
-  color:#ECECEC;
+  color:#FCFCFC;
   border-bottom: 1px solid #5c7a8a;
   padding-bottom: 2px;
 }
