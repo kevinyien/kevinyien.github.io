@@ -3,8 +3,8 @@ body {
   padding: 2rem;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: lighter;
-  color: #ECECEC;
-  background-color: #181818;
+  color: #333333;
+  background-color: #F7F7F7;
   text-decoration: none;
   max-width: 36rem;
 }
@@ -15,7 +15,7 @@ img {
 }
 
 h1 {
-  font-weight: bold;
+  font-weight: bold;;
   font-size: 1.5em;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -47,40 +47,40 @@ blockquote {
 }
 .callout {
   font-family: 'Covered By Your Grace', cursive;
-  color: #808080;
+  color: #aaaaaa;
   font-size: 1.2em;
   letter-spacing: 1px;
 }
 
 .callout a {
-  color: #808080;
+  color: #aaaaaa;
 }
 
 ::selection {
   background-color: #5c7a8a;
-  color: #FFFFFF;
+  color: #ececec;
 }
 
 a {
   text-decoration: none;
-  color:#ECECEC;
+  color:#333333;
   border-bottom: 1px solid #5c7a8a;
   padding-bottom: 3px;
 }
 
 a:hover {
-  color: #fffe9a;
+  color: #5c7a8a;
 }
 
 .mutedNav {
   border: none;
   margin-bottom: 0.5em;
-  color: #808080;
+  color: #aaaaaa;
 }
 
 .mutedTime {
   margin-bottom: 2em;
-  color: #808080;
+  color: #aaaaaa;
 }
 
 #blogList {

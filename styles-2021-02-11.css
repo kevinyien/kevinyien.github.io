@@ -1,16 +1,12 @@
 body {
-  margin: auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 180px 32px;
   font-family: 'IBM Plex Mono', monospace;
   color: #ECECEC;
   background-color: #181818;
   text-decoration: none;
-  max-width: 36rem;
-}
-
-img {
-  max-width: 36rem;
-
+  text-align: center;
+  min-width: 140px;
 }
 
 h1 {
@@ -18,32 +14,19 @@ h1 {
   font-size: 22px;
   letter-spacing: 8px;
   text-transform: uppercase;
+  margin: 64px;
   display: block;
-  margin-top: 2em;
-}
-
-h2 {
-  margin-top: 2em;
 }
 
 p {
-  line-height: 1.68em;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
+  line-height: 2em;
+  letter-spacing: 1px;
 }
 
-li {
-  line-height: 1.68em;
-}
-blockquote {
-  border-left: 3px solid #5c7a8a;
-  padding:0 2em;
-  margin: 3em 2em;
-}
 .callout {
   font-family: 'Covered By Your Grace', cursive;
   color: #585858;
-  font-size: 1.2em;
+  font-size: 22px;
   letter-spacing: 1px;
 }
 
@@ -64,26 +47,21 @@ a {
 }
 
 a:hover {
-  color: #fffe9a;
+  color: #fffea8;
 }
 
-.mutedNav {
-  border: none;
-  margin-bottom: 0.5em;
-  color: #585858;
+#headshot {
+  width:120px;
+  margin-top: 150px;
+  margin-bottom: 400px;
+  transition: opacity 0.8s ease;
 }
 
-.mutedTime {
-  margin-bottom: 2em;
-  color: #585858;
+#headshot:hover, #headshot:active {
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
-#blogList {
-  display: inline-grid;
-  line-height: 2em;
-}
-
-#blogList a {
-  margin: 0.5em 0;
-  border: none;
+#top {
+  border-bottom: none;
 }
