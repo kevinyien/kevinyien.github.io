@@ -1,6 +1,6 @@
 const blogList = {
-  "3 Ways to Become a Product Manager": "./blog/becoming-a-pm.html",
   "Constructing an Effective Phone Screen": "./blog/phone-screen.html",
+  "3 Ways to Become a Product Manager": "./blog/becoming-a-pm.html",
   "Why I'm Joining Square": "./blog/why-square.html",
   "Two Types of Discomfort": "./blog/two-types-of-discomfort.html",
   "How Netflix Improved Their Hook": "./blog/netflix-loop.html",
