@@ -9,6 +9,10 @@ body {
   max-width: 36rem;
 }
 
+.blogPost p {
+  font-family: 'IBM Plex Sans', monospace;
+}
+
 img {
   width: 100%;
   height: auto;
