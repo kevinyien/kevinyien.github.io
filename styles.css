@@ -31,13 +31,13 @@ h2 {
 }
 
 p {
-  line-height: 1.68em;
+  line-height: 1.83em;
   margin-top: 0.5em;
   margin-bottom: 1em;
 }
 
 li {
-  line-height: 1.68em;
+  line-height: 1.83em;
 }
 
 blockquote {
@@ -65,7 +65,7 @@ a {
   text-decoration: none;
   color:#ECECEC;
   border-bottom: 1px solid #5c7a8a;
-  padding-bottom: 3px;
+  padding-bottom: 2px;
 }
 
 a:hover {
