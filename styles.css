@@ -9,14 +9,6 @@ body {
   max-width: 36rem;
 }
 
-.blogPost p {
-  font-family: 'IBM Plex Sans', Avenir, sans-serif;
-}
-
-.blogPost li {
-  font-family: 'IBM Plex Sans', Avenir, sans-serif;
-}
-
 img {
   width: 100%;
   height: auto;
@@ -103,4 +95,19 @@ a:hover {
 .headshot img  {
   width:2em;
   margin-bottom: -1em;
+}
+
+.blogPost p {
+  font-family: 'IBM Plex Sans', Avenir, sans-serif;
+}
+
+.blogPost li {
+  font-family: 'IBM Plex Sans', Avenir, sans-serif;
+}
+
+.blogPost .callout {
+    font-family: 'Covered By Your Grace', cursive;
+    color: #808080;
+    font-size: 1.2em;
+    letter-spacing: 1px;
 }
