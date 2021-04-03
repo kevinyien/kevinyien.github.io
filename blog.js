@@ -1,4 +1,5 @@
 const blogList = {
+  "The Studio Effect": "./blog/studio-effect.html",
   "Learning to Call BS": "./blog/bs.html",
   "Constructing an Effective Phone Screen": "./blog/phone-screen.html",
   "3 Ways to Become a Product Manager": "./blog/becoming-a-pm.html",
