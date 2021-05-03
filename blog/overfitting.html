@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Overfitting — Kevin Yien</title>
+      <meta name="description" content="Overfitting — Kevin Yien.">
+      <meta name="keywords" content="Kevin Yien, Yien, blog">
+      <meta name="author" content="Kevin Yien">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="apple-touch-icon" href="apple-touch-icon.png">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="icon" href="../favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="../styles.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    </head>
+  <body class="blogPost">
+    <a class="mutedNav" href="../index.html">« Home</a>
+    <a class="mutedNav" href="../blog.html">/ Posts</a>
+      <h1>Overfitting</h1>
+      <p class="mutedTime">2021-05-02</p>
+
+<p>Data is the new default. It seems like the more precise you can be the better. But let us not forget the difference between precision and accuracy. Precision is hitting a target consistently. Accuracy is hitting the right target. This brings us to the concept of overfitting, which <a href="https://en.wikipedia.org/wiki/Overfitting">Wikipedia</a> perfectly describes below (emphasis by me).</p>
+
+<blockquote>
+<p>In statistics, overfitting is &quot;the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit additional data or predict future observations reliably&quot;. An overfitted model is a statistical model that contains more parameters than can be justified by the data. The essence of overfitting is to have <strong>unknowingly extracted some of the residual variation (i.e. the noise) as if that variation represented underlying model structure</strong>.</p>
+</blockquote>
+
+<p>Overfitting increases precision at the expense of accuracy. It doesn't matter how well you can hit a target if it's the wrong one. Overfitting can occur in any part of a business — hiring people, organizing teams, building products, modeling algorithms). For the purposes of this article, let's focus on how this applies to building a product. </p>
+
+<p class="callout">This also happens to keep it more in my &quot;zone of competence&quot;</p>
+
+<p>The mistake I see most often is adding functionality to your product in a way that that overfits what customers say [1]. You might even hear a specific piece of feedback multiple times — making it seem like a pattern. But it's usually missing context (e.g. from the wrong stakeholder, during a change in the company). </p>
+
+<p>Let's go through a hypothetical example to make this tangible.</p>
+
+<p class="callout">Trigger warning: This may bring PTSD for some product managers. It may also seem unrealistic to others. Rest assured, this kind of stuff actually happens!</p>
+
+<p>Your company makes a project management tool. An important customer says they desperately need a status field. You diligently add the request to your backlog and move on. More customers start asking for similar changes. You find out there have been 11 different fields requested by customers which comprise 40% of your revenue. The team scopes the work to less than a week — sweet. You make the changes. Customers email you with gratitude. You celebrate. The requests keep coming in. And you keep adding fields. </p>
+
+<p class="callout">I know...there are already so many things wrong with this beyond overfitting. Sorry. It's hard to come up with precise examples that don't conflate other problems. Let's keep going...</p>
+
+<p>Then you start seeing customers churn. You do some exit interviews. They tell you they started using a &quot;simpler&quot; product that was &quot;more flexible&quot; (e.g. Google Sheets, Notion). You dig more. You ask about all those fields they requested. Turns out their company had grown, and their processes had evolved, rendering those fields useless — not to mention all the additional fields from other customers made the product unusable. You cry as you type notes to share with your team. Two weeks pass. The customer churns [2]. </p>
+
+<p>And therein lies the issue. You &quot;unknowingly extracted some of the residual variation (i.e. the noise) as if that variation represented underlying model structure&quot;. </p>
+
+<p class="callout">Cool story. So how do I avoid this?</p>
+
+<p>There is no secret formula to avoid overfitting. Most advice will seem like a cliché. But I'll list a few here anyways. </p>
+
+<ul>
+<li>Customers tell you problems, not solutions</li>
+<li>The loudest voice is not the most important</li>
+<li>Understand the desired elasticity of your product [3]</li>
+</ul>
+
+<p>We are all bound to continue making these mistakes — I'm sure I will. But I hope this post can raise awareness and foster healthy team conversations by putting a name to it. </p>
+
+<p>Be aware of overfitting. Beware of overfitting. </p>
+
+
+<br>
+<br>
+<hr />
+<br>
+<br>
+<p>NOTES</p>
+
+
+<p>[1] The exception is prototyping. Prototypes are tests. They are built to learn something. They are built with the intention to be thrown out. It is okay — and even encouraged — to overfit your prototype. The mistake is making the prototype the product. </p>
+
+<p>[2] Wait! Couldn't you refactor? Couldn't you build a more flexible model and perform a migration for existing customers? Yes. Absolutely. But that's a story for another day. And most can't afford to take that sort of project on. </p>
+
+<p>[3] This will be a future post. A product’s elasticity is its ability to adapt to an undetermined use case. Brittle products can only be used for the purpose they were built (e.g. air fryer). Elastic products can be manipulated beyond their original intent (e.g. steel pot). Similar to materials science, neither is inherently good or bad. Sometimes you absolutely need something brittle. The key is doing so with intention. </p>
+
+  </body>
+</html>

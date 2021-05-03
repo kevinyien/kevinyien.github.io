@@ -1,4 +1,5 @@
 const blogList = {
+  "Overfitting": "./blog/overfitting.html",
   "The Studio Effect": "./blog/studio-effect.html",
   "Learning to Call BS": "./blog/bs.html",
   "Constructing an Effective Phone Screen": "./blog/phone-screen.html",
