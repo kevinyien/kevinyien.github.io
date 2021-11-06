@@ -1,4 +1,5 @@
 const blogList = {
+  "Finding Your Swagger": "./blog/swagger.html",
   "Sinusoidal Thinking": "./blog/sine.html",
   "Overfitting": "./blog/overfitting.html",
   "The Studio Effect": "./blog/studio-effect.html",
