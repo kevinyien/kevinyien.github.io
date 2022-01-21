@@ -1,5 +1,5 @@
 const blogList = {
-  "Joining the Mutiny": "./blog/mutiny.html",
+  "Back to Square One": "./blog/square-one.html",
   "Finding Your Swagger": "./blog/swagger.html",
   "Sinusoidal Thinking": "./blog/sine.html",
   "Overfitting": "./blog/overfitting.html",
