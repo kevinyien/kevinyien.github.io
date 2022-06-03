@@ -1,4 +1,5 @@
 const blogList = {
+  "Creative Interfaces": "./blog/creative-interfaces.html",
   "Full Stack Design": "./blog/full-stack-design.html",
   "Joining the Mutiny": "./blog/mutiny.html",
   "The Unsell Email": "./blog/unsell.html",
