@@ -1,4 +1,5 @@
 const blogList = {
+  "We Before Me": "./blog/we-before-me.html",
   "Cultivating Hospitality": "./blog/cultivating-hospitality.html",
   "Creative Interfaces": "./blog/creative-interfaces.html",
   "Full Stack Design": "./blog/full-stack-design.html",
