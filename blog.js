@@ -1,4 +1,5 @@
 const blogList = {
+  "Earning My Stripes": "./blog/earning-my-stripes.html",
   "Sales is Research": "./blog/sales-research.html",
   "Communication Structures": "./blog/communication-structures.html",
   "We Before Me": "./blog/we-before-me.html",
